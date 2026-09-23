@@ -1,0 +1,17 @@
+# Ignorar dependencias descargadas por terraform init
+.terraform/
+.terraform.lock.hcl
+
+# Ignorar estados de Terraform (locales y de workspaces)
+*.tfstate
+*.tfstate.*
+*.tfstate.backup
+terraform.tfstate.d/
+
+# Ignorar archivos de variables locales
+*.tfvars
+*.tfvars.json
+
+# Ignorar del sistema
+.DS_Store
+Thumbs.db
