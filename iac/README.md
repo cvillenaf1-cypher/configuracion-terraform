@@ -4,7 +4,7 @@
 
 ### El proyecto utiliza el proveedor oficial de Docker mantenido por Kreuzwerker y la version 4.6.0 .
 
- Terraform leerá tu archivo providers.tf.
+ Terraform leerá el archivo providers.tf.
 
 Descargará el proveedor kreuzwerker/docker versión 4.6.0.
 
@@ -28,6 +28,17 @@ frontend-backend-qa
 
 backend-database-qa
 
+### Por default
+
+![redes por default](./PNG/redes_defa.png)
+
 #### Esto también evita que DEV y QA terminen hablando entre sí.
 
-## Servidor web
+
+## Desarrollo y conexion  de frontend , backend y base de datos
+
+### despliegue dev
+![redes por dev](./PNG/redes_dev.png)
+
+### despliegue qa
+![redes por qa](./PNG/redes_qa.png)
