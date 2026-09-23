@@ -1,5 +1,5 @@
 resource "docker_image" "frontend" {
-  name = "nginx:1.25-alphine"
+  name = "nginx:1.25-alpine"
 }
 
 resource "docker_image" "backend" {
