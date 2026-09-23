@@ -1,0 +1,18 @@
+# Ejemplo de configuración para variables de puertos por entorno
+frontend_port = {
+  default = 8080
+  dev     = 3000
+  qa      = 3001
+}
+
+backend_port = {
+  default = 8081
+  dev     = 4000
+  qa      = 4001
+}
+
+database_port = {
+  default = 5432
+  dev     = 5433
+  qa      = 5434
+}
